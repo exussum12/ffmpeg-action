@@ -7,6 +7,6 @@ jobs:
       - name: test-conversion
         run: |
          apt update && apt install -y ffmpeg
-         wget https://cobras.hockey/Game.mp4
-         ffmpeg -i Game.mp4 test.mp4
+         wget https://cobras.hockey/Goals.mp4
+         ffmpeg -i Goals.mp4 test.mp4
      
