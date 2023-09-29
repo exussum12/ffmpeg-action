@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: test-conversion
         run: |
-         apt update && apt install -y ffmpeg
+         sudo apt update && sudo apt install -y ffmpeg
          wget https://cobras.hockey/Goals.mp4
          ffmpeg -i Goals.mp4 test.mp4
      
