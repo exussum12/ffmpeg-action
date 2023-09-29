@@ -1,4 +1,4 @@
-#Becnhmarking ffmpeg performance
+#Benchmarking ffmpeg performance
 
 | Platform | CPU | FPS |
 |----------|-----|-----|
