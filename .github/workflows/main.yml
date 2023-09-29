@@ -4,8 +4,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -name: test-conversion
-       run: |
+      - name: test-conversion
+        run: |
          apt update && apt install -y ffmpeg
          wget https://cobras.hockey/Game.mp4
          ffmpeg -i Game.mp4 test.mp4
